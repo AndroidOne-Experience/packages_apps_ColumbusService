@@ -95,7 +95,7 @@ public class SeekBarPreference extends RestrictedPreference
                         defStyleRes);
         final boolean isSelectable =
                 a.getBoolean(
-                        org.protonaosp.columbus.R.styleable.Preference_android_selectable, false);
+                        io.androidone.columbus.R.styleable.Preference_android_selectable, false);
         setSelectable(isSelectable);
         a.recycle();
 

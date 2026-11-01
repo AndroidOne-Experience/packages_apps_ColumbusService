@@ -16,7 +16,7 @@
   -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="org.protonaosp.columbus">
+    package="io.androidone.columbus">
 
     <!-- Core -->
     <uses-permission android:name="android.permission.ACCESS_CONTEXT_HUB" />
@@ -103,7 +103,7 @@
             <meta-data android:name="com.android.settings.category"
                 android:value="com.android.settings.category.ia.gestures" />
             <meta-data android:name="com.android.settings.summary_uri"
-                android:value="content://org.protonaosp.columbus.settings.summary/entry" />
+                android:value="content://io.androidone.columbus.settings.summary/entry" />
             <!-- To make it appear at the top, like stock -->
             <meta-data android:name="com.android.settings.order" android:value="-100" />
             <!-- Don't show in work profiles -->
@@ -116,14 +116,14 @@
             android:label="@string/app_picker_dialog_title"
             android:exported="true" >
             <intent-filter>
-                <action android:name="org.protonaosp.columbus.actions.apppicker.ColumbusCustomApp" />
+                <action android:name="io.androidone.columbus.actions.apppicker.ColumbusCustomApp" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
 
         <provider
             android:name=".settings.SearchProvider"
-            android:authorities="org.protonaosp.columbus.settings.search"
+            android:authorities="io.androidone.columbus.settings.search"
             android:multiprocess="false"
             android:grantUriPermissions="true"
             android:permission="android.permission.READ_SEARCH_INDEXABLES"
@@ -135,7 +135,7 @@
 
         <provider
             android:name=".settings.SummaryProvider"
-            android:authorities="org.protonaosp.columbus.settings.summary" />
+            android:authorities="io.androidone.columbus.settings.summary" />
 
     </application>
 

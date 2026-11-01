@@ -26,7 +26,7 @@ import android.widget.TextView;
 import androidx.core.content.res.TypedArrayUtils;
 import androidx.preference.PreferenceViewHolder;
 
-import org.protonaosp.columbus.R;
+import io.androidone.columbus.R;
 
 /** A slider preference with left and right labels **/
 public class LabeledSeekBarPreference extends SeekBarPreference {

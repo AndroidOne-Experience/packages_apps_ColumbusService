@@ -39,8 +39,8 @@
         android:title="@string/launch_app_select_title"
         android:summary="@string/launch_app_select_summary">
         <intent android:action="android.intent.action.MAIN"
-            android:targetPackage="org.protonaosp.columbus"
-            android:targetClass="org.protonaosp.columbus.actions.apppicker.ColumbusCustomApp" />
+            android:targetPackage="io.androidone.columbus"
+            android:targetClass="io.androidone.columbus.actions.apppicker.ColumbusCustomApp" />
     </Preference>
 
     <ListPreference
